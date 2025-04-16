@@ -1,0 +1,24 @@
+:root{
+    /* primary colors */
+    --mint-green: #e3f2ed;
+    --teal: #1e4d5a;
+    --leaf-green: #5eb47d;
+
+    /* accent colors */
+
+    --white : #ffff;
+    --sky-blue : #add8e6;
+
+    /* text base colors */
+    --navy-blue : #003b50;
+
+    /* hover colors and UI colors */
+    --highlight-text : var(--leaf-green);
+    --button-bg : var(--teal);
+    --button-text : var(--white);
+    --heading-text : var(--teal);
+}
+
+body{
+    background-color: var(--mint-green);
+}
